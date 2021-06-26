@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
+//import Finalspace from "./component/Finalspace"
+
+
+import Breakingbad from "./component/Breakingbad";
+// import HookCounter4 from "./component/Count";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Finalspace /> */}
+    <Breakingbad />
+    {/* <HookCounter4 /> */}
+
+    </>
   );
 }
 
